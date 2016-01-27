@@ -15,7 +15,8 @@
             "konsole": 'konsole --workdir ' + path,
             "gnome-terminal": 'gnome-terminal --working-directory="' + path + '"',
             "lxterminal": 'lxterminal --working-directory="' + path + '"',
-            "terminator": 'terminator --working-directory="' + path + '"'
+            "terminator": 'terminator --working-directory="' + path + '"',
+            "lilyterm": 'lilyterm --directory "' + path + '"'
         };
 
         console.log('In cmdStartTerm, command: "' + commandMap[term]);
